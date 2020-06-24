@@ -1,0 +1,530 @@
+body{
+    margin-top: 60px !important;
+    }
+    h1, h2, h3, h4, h5, h6{
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    p{
+    font-family: 'Lato', sans-serif;
+    }
+    .navbar-brand{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.05rem;
+    line-height: 36px;
+    color: #B3001B;
+    }
+    .navbar{
+    background-color: #ffffff;
+    border: none;
+    }
+    .nav-item .nav-link{
+    color: #262626;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 22px;
+    align-items: center;
+    padding-top: 15px;
+    }
+    .active .nav-link{
+    color: #B3001B;
+    }
+    .navbar-collapse {
+    justify-content: flex-end !important;
+    }
+    .btn{
+    background: #B3001B;
+    border-radius: 2px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+    .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    }
+    .carousel-caption .carousel-h3{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 67px;
+    color: #FCFCFC;
+    }
+    .carousel-caption p{
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    }
+    .card-publisher-name-header{
+    padding: 0px 10px;
+    border-right: 2px solid #ffffff;
+    }
+    .pulished-month{
+    padding: 0px 10px;
+    border-right: 2px solid #ffffff;
+    }
+    .publishes-category{
+    padding: 0px 10px;
+    }
+    /* section-2-styling-starts here  */
+    .section-2-text-Area{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .section-2-card-deck{
+    /* margin: 2px auto; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .app-store-images {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .section-2-text-Area h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 36px;
+    text-align: center;
+    color: #B3001B;
+    }
+    .first-section-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    height: 302px;
+    width: 300px;
+    }
+    .first-section-card-body{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 302px;
+    width: 300px;
+    background: #B3001B;
+    box-shadow: 0px 35px 56px rgba(98, 1, 1, 0.1);
+    border-radius: 2px;
+    text-align: center;
+    }
+    .first-section-card-body h4 p{
+    color: #ffffff;
+    text-align: center;
+    }
+    .first-section-card-body-text{
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FCFCFC !important;
+    }
+    .first-section-card-body-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 147.1%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FCFCFC;
+    }
+    /* section three styling starts here */
+    .section-three-carousel-item {
+    width: 100%;
+    margin-left: 145px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+    #multi-item-example{
+    width: 100%;
+    background-image: url(../assets/Rectangle\ 39.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    }
+    .overlay{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,2); /*dim the background*/
+    }
+    .section-three-card{
+    margin-top: 15px;
+    }
+    .section-three-h1{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    letter-spacing: -0.02em;
+    color: #FCFCFC;
+    }
+    .section-three-h1:after{
+    content:' ';
+    display:block;
+    border:1px solid #FFFFFF;
+    width: 79%;
+    margin-top: 12px;
+    margin-left: 60px; 
+    }
+    /* card carousel body styling */
+    .card-categories-wrapper{
+    display: flex;
+    }
+    .card-categories{
+    border: 1px solid #B3001B;
+    margin: 5px ;
+    padding: 8px;
+    border-radius: 3px;
+    }
+    .carousel-card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B3001B;
+    }
+    .carousel-card-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.1%;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    /* BASE COLOR */
+    color: #B3001B;
+    }
+    .card-publisher-wrapper{
+    display: flex;
+    align-items: center;
+    }
+    .publisher-image{
+    padding: 10px;
+    }
+    .card-publisher-name{
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    }
+    /* section-4-design starts here */
+    .inner-icon-parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    }
+    .inner-icon{
+    border: 2px solid red;
+    margin: 15px 20pxx;
+    }
+    .icon-area{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+    width: 100%;
+    }
+    .section-4-card-body {
+    -ms-flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 1px;
+    margin: 0px auto;
+    padding: 1.25rem;
+    width: 170px;
+    height: 170px;
+    box-shadow: none;
+    border: none;
+    }
+    .section-4{
+    padding-top: 30px;
+    border-bottom: 40px solid #B3001B;;
+    }
+    .section-4-card{
+    border: none;
+    box-shadow: none;
+    }
+    .section-4-card-title{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #B3001B;
+    letter-spacing: -0.02em;
+    }
+    .section-4-text-area h1{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    }
+    .section-4-text-area p{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    }
+    .image-gallery-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 3px solid #B3001B;
+    margin-bottom: 10px;
+    }
+    .image-gallery-section-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .image-gallery-section-left img{
+    margin-bottom: 15px;
+    }
+    /* section 5 styling starts here */
+    .section-5-wrapper{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .section-5-image img{
+    width: 100%;
+    height: 20%;
+    }
+    .section-5-h1-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-top: 10px;
+    color: #B3001B;
+    }
+    .section-5-h1-text:after{
+    content:' ';
+    display: block;
+    border: 1px solid #B3001B;
+    width: 100%;
+    }
+    .section-5-p-text{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    text-align: center;
+    }
+    /* 6th section styling starts here  */
+    .section-6-text-area{
+    margin-left: -450px;
+    width: 600px;
+    }
+    .section-6-h1-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    letter-spacing: -0.02em;
+    padding-top: 10px;
+    color: #B3001B;
+    }
+    .section-6-h1-text:after{
+    content:' ';
+    display: block;
+    border: 1px solid #B3001B;
+    width: 100%;
+    }
+    .section-6-p-text{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    width: 600px;
+    }
+    .sixth-section-card-body-title{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #B3001B;
+    }
+    .sixth-section-card-body-text{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    }
+    .sixth-section-card{
+    border: none;
+    box-shadow: none;
+    }
+    .sixth-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    /* footer styling starts here  */
+    .footer-wrapper{
+    background:  #B3001B;
+    padding: 30px;
+    width: 100%;
+    color: #ffffff;
+    }
+    .footer-parent-div{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .footer-text-area{
+    flex: 1;
+    }
+    .footer-text-area p{
+    font-family: "lato";
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 1rem;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+    .footer-link-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex: 2;
+    }
+    .footer-link-group a{
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .footer-link-group p {
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 113.2%;
+    color: #FFFFFF;
+    }
+    @media only screen and (max-width: 600px)  {
+    .navbar-brand {
+    font-size: 1.7rem;
+    }
+    /* for carousel */
+    .view img, .view video {
+    height: 30vh;
+    }
+    .carousel-caption .carousel-h3 {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 17px;
+    color: #FCFCFC;
+    /* margin-top: 52px; */
+    }
+    .carousel-p {
+    font-size: 0.475rem !important;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    }
+    .section-three-carousel-item {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+    .section-6-text-area{
+    margin-left: 0px;
+    width: auto;
+    }
+    .section-6-p-text {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #B3001B;
+    width: auto;
+    }
+    .carousel-caption p{
+    font-size: 0.375rem;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    }
+    .image-gallery-section{
+    display: none;
+    }
+    .footer-parent-div {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .footer-link-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    flex: 2;
+    }
+    }
+    
